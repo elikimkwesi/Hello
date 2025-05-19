@@ -45,8 +45,8 @@ export default function Footer() {
           icon: <MapPin className="h-4 w-4 text-violet-400 mr-2 flex-shrink-0" />,
         },
         {
-          name: "hello@fedgeco.com",
-          path: "mailto:hello@fedgeco.com",
+          name: "support@fedgeco.com",
+          path: "mailto:support@fedgeco.com",
           icon: <Mail className="h-4 w-4 text-violet-400 mr-2 flex-shrink-0" />,
         },
         {

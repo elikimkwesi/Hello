@@ -13,8 +13,8 @@ export default function Logo({ isLight = false }: LogoProps) {
         <Image
           src="/Images/company.png"
           alt="FedgeCo Logo"
-          width={1000}
-          height={300}
+          width={100000}
+          height={300000}
           className="object-contain"
         />
       </div>

@@ -60,21 +60,21 @@ export default function AboutPage() {
   const teamMembers = [
     {
       name: "Benedicta Frimpong",
-      role: "CEO & Founder",
+      role: "Founder and Lead Executive",
       image: "/Images/benedicta.jpeg",
-      bio: "2+ years of experience in digital strategy and business transformation.",
+      bio: "Project Manager & Idea Prospect",
     },
     {
       name: "Emmanuella Acheampong",
-      role: "Financial & Operation Manager",
+      role: "Financial and Operations Manager",
       image: "/placeholder.svg?height=400&width=400",
-      bio: "Expert in emerging technologies with a background in enterprise solutions.",
+      bio: "Financial and Research Analyst",
     },
     {
       name: "Lois Akoto Baffour",
-      role: "Creative Director",
+      role: "Business Development and Innovation manager",
       image: "/placeholder.svg?height=400&width=400",
-      bio: "Award-winning designer with a passion for creating meaningful digital experiences.",
+      bio: "Risk management and Strategic Planning",
     },
     {
       name: "Vincent Monbo",
@@ -190,7 +190,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-4xl md:text-6xl font-bold text-white mb-6"
           >
-            We Transform Ideas Into Digital Reality
+            Discover our Commitment to excellence
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -198,8 +198,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto"
           >
-            FedgeCo is a team of passionate digital strategists, designers, and developers dedicated to helping
-            businesses thrive in the digital age.
+            FedgeCo is a reliable partner for your business solutions, helping organisations grow and adapt while preparing for future challenges.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -270,6 +269,152 @@ export default function AboutPage() {
           {/* Background decoration */}
           <div className="absolute top-0 left-0 w-72 h-72 bg-purple-500/20 rounded-full -ml-36 -mt-36 blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-violet-600/20 rounded-full -mr-48 -mb-48 blur-3xl"></div>
+        </div>
+      </motion.section>
+
+      {/* Value Proposition Section */}
+      <motion.section
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }}
+        variants={fadeInUp}
+        className="py-20 md:py-28 bg-white relative overflow-hidden"
+      >
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Our Value Proposition</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              What sets us apart and drives our commitment to your success.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <motion.div
+              variants={{
+                hidden: { opacity: 0, y: 50 },
+                visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.1 } },
+              }}
+              className="relative z-10"
+            >
+              <div className="bg-gradient-to-br from-violet-50 to-purple-100 p-8 rounded-2xl h-full border border-violet-100 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-gradient-to-r from-violet-600 to-purple-600 w-16 h-16 rounded-xl flex items-center justify-center mb-6 shadow-md">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">Expertise That Drives Results</h3>
+                <p className="text-gray-700">
+                  With a team of seasoned professionals from diverse industries, we deliver practical, innovative
+                  solutions tailored to your unique challenges and goals.
+                </p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              variants={{
+                hidden: { opacity: 0, y: 50 },
+                visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.2 } },
+              }}
+              className="relative z-10"
+            >
+              <div className="bg-gradient-to-br from-blue-50 to-cyan-100 p-8 rounded-2xl h-full border border-blue-100 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-gradient-to-r from-blue-600 to-cyan-600 w-16 h-16 rounded-xl flex items-center justify-center mb-6 shadow-md">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">Future-Focused Strategies</h3>
+                <p className="text-gray-700">
+                  We prioritize anticipating tomorrow's opportunities, ensuring your business is positioned for
+                  sustainable, long-term success.
+                </p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              variants={{
+                hidden: { opacity: 0, y: 50 },
+                visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.3 } },
+              }}
+              className="relative z-10"
+            >
+              <div className="bg-gradient-to-br from-amber-50 to-orange-100 p-8 rounded-2xl h-full border border-amber-100 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-gradient-to-r from-amber-600 to-orange-600 w-16 h-16 rounded-xl flex items-center justify-center mb-6 shadow-md">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">Collaborative Approach</h3>
+                <p className="text-gray-700">
+                  Partnering closely with our clients, we align our strategies with their vision, leveraging data-driven
+                  insights to make impactful and meaningful decisions.
+                </p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              variants={{
+                hidden: { opacity: 0, y: 50 },
+                visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.4 } },
+              }}
+              className="relative z-10"
+            >
+              <div className="bg-gradient-to-br from-emerald-50 to-teal-100 p-8 rounded-2xl h-full border border-emerald-100 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-gradient-to-r from-emerald-600 to-teal-600 w-16 h-16 rounded-xl flex items-center justify-center mb-6 shadow-md">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">Sustainability & Growth</h3>
+                <p className="text-gray-700">
+                  By combining cutting-edge innovation with deep market insights, we deliver strategies that enhance
+                  operational excellence and enable scalable, sustainable growth.
+                </p>
+              </div>
+            </motion.div>
+          </div>
+          {/* Background decoration */}
+          <div className="absolute top-1/4 right-0 w-96 h-96 bg-gradient-to-br from-violet-100 to-transparent rounded-full opacity-50 blur-3xl -z-10"></div>
+          <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-gradient-to-br from-blue-100 to-transparent rounded-full opacity-50 blur-3xl -z-10"></div>
         </div>
       </motion.section>
 

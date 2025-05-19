@@ -86,7 +86,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-4xl md:text-6xl font-bold text-white mb-6"
         >
-          Digital Solutions for Forward-Thinking Businesses
+          Your Trusted Partner in Business Success
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
@@ -94,8 +94,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto"
         >
-          We help businesses build innovative digital solutions that transform industries and connect deeply with their
-          customers.
+          Welcome to fedge Consult, where business challenges meet innovative solutions. We specialise in empowering organisations to grow, adapt, and thrive in the present market while positioning them for future success.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

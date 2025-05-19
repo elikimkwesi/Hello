@@ -30,7 +30,7 @@ export default function ServicesPage() {
         "Business model optimization",
       ],
       isDark: true,
-      image: "/placeholder.svg?height=600&width=600",
+      image: "/Images/guidance2.jpg?height=600&width=600",
     },
     {
       id: "project-management",
@@ -44,7 +44,7 @@ export default function ServicesPage() {
         "Stakeholder communication",
       ],
       isDark: false,
-      image: "/placeholder.svg?height=600&width=600",
+      image: "/Images/management.jpg?height=600&width=600",
     },
     {
       id: "turnkey-solutions",
@@ -58,7 +58,7 @@ export default function ServicesPage() {
         "Cloud migration and optimization",
       ],
       isDark: true,
-      image: "/placeholder.svg?height=600&width=600",
+      image: "/Images/turnkey.jpg?height=600&width=600",
     },
     {
       id: "grant-negotiation",
@@ -72,7 +72,7 @@ export default function ServicesPage() {
         "Reporting and documentation",
       ],
       isDark: false,
-      image: "/placeholder.svg?height=600&width=600",
+      image: "/Images/grant.jpg?height=600&width=600",
     },
   ]
 

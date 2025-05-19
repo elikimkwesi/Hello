@@ -218,7 +218,7 @@ export default function ServicesSection() {
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4">Our Services</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We offer a comprehensive range of services to help your business succeed in the digital landscape.
+            We provide customised business consultancy services aimed at helping businesses, startups, and entrepreneurs succeed in a competitive environment.
           </p>
         </motion.div>
 

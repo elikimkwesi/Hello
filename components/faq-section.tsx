@@ -9,7 +9,7 @@ export default function FAQSection() {
     {
       question: "What services does FedgeCo offer?",
       answer:
-        "FedgeCo offers a comprehensive range of digital services including business consulting, project management, software development, UI/UX design, team augmentation, and digital transformation. We tailor our services to meet the specific needs of each client.",
+        "FedgeCo focus on expanding market reach and driving financial growth through comprehensive strategies in digital marketing, customer engagement and performance optimization.",
     },
     {
       question: "How long does a typical project take to complete?",
